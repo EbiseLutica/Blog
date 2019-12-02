@@ -1,0 +1,82 @@
+$fore: #212121;
+$fore-light: #757575;
+$back: #C8E6C9;
+$body-back: #ffffff;
+$body-border: #616161;
+$accent: #4CAF50;
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 32px 128px;
+    color: $fore;
+    background: $back;
+    line-height: 200%;
+
+    &>.title a {
+        color: $fore;
+        margin-bottom: 0;
+        text-decoration: none;
+        font-size: 48px;
+        text-shadow: 1px 1px 0 $fore-light;
+    }
+    
+    &>.description {
+        margin-left: 32px;
+        color: $fore-light;
+    }
+}
+
+.posts {
+    list-style: none;
+    margin: 0;
+    padding: 16px 0;
+    .item {
+        background: $body-back;;
+        padding: 16px;
+        margin-bottom: 16px;
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;;
+            .title {
+                color: #4CAF50;
+            }
+
+            .meta {
+                color: $fore-light;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+.post {
+    background: $body-back;
+    margin: 0;
+    padding: 16px;
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;;
+        .title {
+            color: #4CAF50;
+        }
+
+        .meta {
+            color: $fore-light;
+            margin-left: auto;
+        }
+    }
+
+    .reading-time {
+        color: $fore-light;
+    }
+
+    .content {
+        margin-left: 16px;
+    }
+    
+}

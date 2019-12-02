@@ -1,0 +1,16 @@
+baseURL = "http://blog.xeltica.work/"
+languageCode = "ja-jp"
+title = "ぜるめも"
+theme = "xeltheme"
+disqusShortname = "xeltica-blog"
+
+[params]
+  author = "Xeltica"
+  description = "ゼルチカの役立たない情報アンテナ。"
+  avatar = "https://avatars2.githubusercontent.com/u/7106976?s=400&u=dc1c0560e8deed6b2b09030e1b2f5315cc9abe42&v=4"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/xeltica"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/xeltica"

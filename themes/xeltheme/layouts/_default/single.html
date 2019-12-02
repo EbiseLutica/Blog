@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="post">
+    <header class="header">
+        <h1 class="title">{{ .Title }}</h1>
+        <div class="meta">
+            {{ .PublishDate.Format "2006年 1月 2日" }}
+        </div>
+    </header>
+    <aside class="reading-time">この記事は {{ .ReadingTime }} 分くらいで読めます。</aside>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    <div class="footer">
+        {{ template "_internal/disqus.html" . }}
+    </div>
+</article>
+{{ end }}
