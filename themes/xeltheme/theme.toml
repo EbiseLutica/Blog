@@ -3,9 +3,7 @@
 
 name = "Xeltheme"
 license = "MIT"
-licenselink = "https://github.com/xeltica/hugo-xeltheme/blob/master/LICENSE"
 description = "Xeltica's own theme"
-homepage = "http://github.com/xeltica/hugo-xeltheme"
 tags = []
 features = []
 min_version = "0.41"
