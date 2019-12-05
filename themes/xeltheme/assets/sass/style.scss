@@ -31,7 +31,8 @@ body {
     margin: 0;
     padding: 16px 0;
     .item {
-        background: $body-back;;
+        background: $body-back;
+        animation: 0.5s ease-out 0s 1 slideInFromLeft;
         padding: 16px;
         margin-bottom: 16px;
         .header {
@@ -53,6 +54,7 @@ body {
 
 .post {
     background: $body-back;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
     margin: 0;
     padding: 16px;
 
@@ -79,4 +81,15 @@ body {
         margin-left: 16px;
     }
     
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(128px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
