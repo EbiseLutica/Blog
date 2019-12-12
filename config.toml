@@ -1,4 +1,4 @@
-baseURL = "http://blog.xeltica.work/"
+baseURL = "https://blog.xeltica.work/"
 languageCode = "ja-jp"
 title = "ぜるめも"
 theme = "xeltheme"
