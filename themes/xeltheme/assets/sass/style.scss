@@ -98,3 +98,24 @@ body {
     opacity: 1;
   }
 }
+
+table {
+    margin-bottom: 16px;
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+    tr {
+        th {
+            padding: 8px;
+            background: #444;
+            color: #fff;
+        }
+        td {
+            padding: 8px;
+        }
+
+        &:nth-child(even) {
+            background: #f0f0f0;
+        }
+    }
+}
