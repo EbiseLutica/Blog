@@ -11,19 +11,24 @@ body {
     color: $fore;
     background: $back;
     line-height: 200%;
+}
 
-    &>.title a {
-        color: $fore;
-        margin-bottom: 0;
-        text-decoration: none;
-        font-size: 48px;
-        text-shadow: 1px 1px 0 $fore-light;
+header {
+    .title a {
+    color: $fore;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 48px;
+    text-shadow: 1px 1px 0 $fore-light;
     }
-    
+
     &>.description {
-        margin-left: 32px;
         color: $fore-light;
     }
+}
+
+header, footer {
+    text-align: center;
 }
 
 .posts {
