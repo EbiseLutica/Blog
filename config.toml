@@ -14,3 +14,8 @@ disqusShortname = "xeltica-blog"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/xeltica"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
